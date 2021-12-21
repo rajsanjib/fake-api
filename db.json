@@ -1,104 +1,14 @@
 {
-"video_hash": "videoabcd",
-"annotation_info":[
-    {
-        "frame_name":"vid_1_f1.jpg",
-        "objects":[
-                {
-                "name":"tunic_tops",
-                "bbox":{
-                        "x0":"2",
-                        "y0":"653",
-                        "x1":"667",
-                        "y1":"1280"
-                        }
-                }
-        ]
-},
-    {
-        "frame_name":"vid_1_f2.jpg",
-        "objects":[
-                {
-                "name":"half_tshirt",
-                "bbox":{
-                        "x0":"40",
-                        "y0":"292",
-                        "x1":"354",
-                        "y1":"666"
-                        }
-                }
-        ]
-},
-    {
-        "frame_name":"vid_1_f3.jpg",
-        "objects":[
-                {
-                "name":"jeans_jacket",
-                "bbox":{
-                        "x0":"330",
-                        "y0":"428",
-                        "x1":"640",
-                        "y1":"768"
-                        }
-                },
-                {
-                "name":"jeans_pant",
-                "bbox":{
-                        "x0":"387",
-                        "y0":"738",
-                        "x1":"573",
-                        "y1":"1138"
-                        }
-                },
-                {
-                "name":"jeans_jacket",
-                "bbox":{
-                        "x0":"85",
-                        "y0":"472",
-                        "x1":"311",
-                        "y1":"701"
-                        }
-                },
-                {
-                "name":"jeans_pant",
-                "bbox":{
-                        "x0":"109",
-                        "y0":"664",
-                        "x1":"303",
-                        "y1":"1138"
-                        }
-                }
-        ]
-},
-        {
-        "frame_name":"vid_1_f4.jpg",
-        "objects":[
-                {
-                "name":"full_shirt",
-                "bbox":{
-                        "x0":"38",
-                        "y0":"495",
-                        "x1":"640",
-                        "y1":"1136"
-                        }
-                }
-        ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
